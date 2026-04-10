@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pierre Silva Escritório de Advocacia - Especializado em Direito do Trabalho. Defesa do trabalhador com profundo conhecimento técnico e atendimento humanizado.">
+    <link rel="icon" type="image/webp" href="assets/icon-empresa-original.webp">
+    <title>Pierre Silva Advocacia | Especialista em Direito do Trabalho</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar" role="navigation" aria-label="Navegação principal">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Pierre Silva Advocacia - Início">
+                <img src="assets/img-empresa-mobile%20(2).webp" alt="Pierre Silva Advocacia" class="logo-image">
+            </a>
+            
+            <ul class="nav-links" role="menubar">
+                <li role="none"><a href="#hero" role="menuitem">Início</a></li>
+                <li role="none"><a href="#servicos" role="menuitem">Serviços</a></li>
+                <li role="none"><a href="#sobre" role="menuitem">Sobre</a></li>
+                <li role="none"><a href="#depoimentos" role="menuitem">Depoimentos</a></li>
+                <li role="none"><a href="#faq" role="menuitem">FAQ</a></li>
+                <li role="none"><a href="#contato" role="menuitem">Contato</a></li>
+            </ul>
+            
+            <a href="https://wa.me/5521993285673" class="nav-cta" target="_blank" rel="noopener noreferrer">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                Fale Conosco
+            </a>
+            
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="mobile-menu" role="dialog" aria-label="Menu mobile" aria-hidden="true">
+            <div class="mobile-menu-content">
+                <button class="mobile-close" aria-label="Fechar menu">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="mobile-links">
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <a href="https://wa.me/5521993285673" class="mobile-cta" target="_blank" rel="noopener noreferrer">
+                    Fale pelo WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero" aria-label="Hero">
+        <div class="hero-bg">
+            <div class="hero-grain"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-label" data-animate>ADVOCACIA TRABALHISTA</span>
+                    <h1 class="hero-headline">
+                        <span class="headline-line" data-animate>Defesa</span>
+                        <span class="headline-line" data-animate>do</span>
+                        <span class="headline-line headline-accent" data-animate>Trabalhador</span>
+                    </h1>
+                    <div class="hero-underline" data-animate></div>
+                    <p class="hero-subtitle" data-animate>
+                        Escritório especializado em direito do trabalho, com ênfase na fase de execução processual. Atendimento humanizado e compromisso com resultados.
+                    </p>
+                    <div class="hero-buttons" data-animate>
+                        <a href="https://wa.me/5521993285673" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            Consulta Gratuita
+                        </a>
+                        <a href="#servicos" class="btn btn-outline">
+                            Conheça Nossos Serviços
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <img src="assets/2024-12-03.webp" 
+                             alt="Dr. Pierre Silva - Advogado Trabalhista" 
+                             class="hero-image"
+                             loading="eager">
+                        <div class="hero-image-gradient"></div>
+                    </div>
+                    
+                    <!-- Google Badge -->
+                    <div class="google-badge" data-animate>
+                        <div class="badge-content">
+                            <div class="badge-stars">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                            <div class="badge-rating">
+                                <span class="rating-number">5.0</span>
+                                <span class="rating-text">no Google</span>
+                            </div>
+                            <div class="badge-count">18 avaliações</div>
+                        </div>
+                        <svg class="badge-logo" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <span class="scroll-text">Role para explorar</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Dor e Solução Section -->
+    <section id="dor-solucao" class="dor-solucao" aria-labelledby="dor-solucao-title">
+        <div class="ds-container">
+            <h2 id="dor-solucao-title" class="ds-headline" data-animate>
+                Você trabalhou. Tem direitos. <br><span class="highlight">Nós lutamos por eles.</span>
+            </h2>
+            
+            <div class="ds-grid">
+                <div class="ds-card ds-dor" data-animate>
+                    <div class="ds-card-header">
+                        <span class="ds-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                        </span>
+                        <h3>Situações que enfrentamos</h3>
+                    </div>
+                    <ul class="ds-list">
+                        <li><span class="ds-bullet"></span>Demissão injusta ou sem justa causa</li>
+                        <li><span class="ds-bullet"></span>Horas extras não pagas</li>
+                        <li><span class="ds-bullet"></span>Assédio moral ou sexual no trabalho</li>
+                        <li><span class="ds-bullet"></span>FGTS não depositado</li>
+                        <li><span class="ds-bullet"></span>Intervalo de almoço não respeitado</li>
+                        <li><span class="ds-bullet"></span>Verbas rescisórias incorretas</li>
+                    </ul>
+                </div>
+                
+                    <div class="scale-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 16 2 6"/><path d="m2 16 14-10"/><path d="M7 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/><path d="M12 21V3"/><path d="M19 21a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/></svg>
+                    </div>
+                
+                <div class="ds-card ds-solucao" data-animate>
+                    <div class="ds-card-header">
+                        <span class="ds-icon ds-icon-solucao">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                        </span>
+                        <h3>Como resolvemos</h3>
+                    </div>
+                    <ul class="ds-list ds-list-solucao">
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Análise gratuita do seu caso</li>
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Reclamação trabalhista estratégica</li>
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Acompanhamento em todas as fases</li>
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Foco na execução do crédito</li>
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Transparência total no processo</li>
+                        <li><span class="ds-bullet ds-bullet-solucao"></span>Atendimento em todo o Brasil</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section" aria-label="Especialidades">
+        <div class="marquee-container">
+            <div class="marquee-track">
+                <span class="marquee-item">DIREITO TRABALHISTA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">RECLAMAÇÃO TRABALHISTA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">FGTS</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">SEGURO DESEMPREGO</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">HORAS EXTRAS</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">RESCISÃO INDIRETA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">VÍNCULO EMPREGATÍCIO</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">TODO O BRASIL</span>
+                <span class="marquee-separator">•</span>
+                <!-- Duplicate for seamless loop -->
+                <span class="marquee-item">DIREITO TRABALHISTA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">RECLAMAÇÃO TRABALHISTA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">FGTS</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">SEGURO DESEMPREGO</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">HORAS EXTRAS</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">RESCISÃO INDIRETA</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">VÍNCULO EMPREGATÍCIO</span>
+                <span class="marquee-separator">•</span>
+                <span class="marquee-item">TODO O BRASIL</span>
+                <span class="marquee-separator">•</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section - Bento Grid -->
+    <section id="servicos" class="servicos" aria-labelledby="servicos-title">
+        <div class="servicos-container">
+            <header class="servicos-header" data-animate>
+                <span class="section-label">NOSSOS SERVIÇOS</span>
+                <h2 id="servicos-title" class="section-title">Especialidades Trabalhistas</h2>
+                <p class="section-subtitle">Soluções jurídicas completas para a defesa dos seus direitos</p>
+            </header>
+            
+            <div class="bento-grid">
+                <!-- Card 1 - Large -->
+                <article class="bento-card bento-large" data-animate>
+                    <span class="bento-number">01</span>
+                    <div class="bento-content">
+                        <h3>Reclamação Trabalhista</h3>
+                        <p>Ajuizamento de ação judicial para cobrança de direitos violados pelo empregador. Inclui todas as verbas devidas, desde o início do vínculo até a rescisão.</p>
+                        <a href="https://wa.me/5521993285673" class="bento-link" target="_blank" rel="noopener noreferrer">
+                            Saiba mais <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 2 - Medium -->
+                <article class="bento-card bento-medium" data-animate>
+                    <span class="bento-number">02</span>
+                    <div class="bento-content">
+                        <h3>FGTS e Rescisão</h3>
+                        <p>Cobrança de FGTS não depositado, multa rescisória de 40% e verbas rescisórias incompletas.</p>
+                        <a href="https://wa.me/5521993285673" class="bento-link" target="_blank" rel="noopener noreferrer">
+                            Saiba mais <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 3 - Small -->
+                <article class="bento-card bento-small" data-animate>
+                    <span class="bento-number">03</span>
+                    <div class="bento-content">
+                        <h3>Horas Extras</h3>
+                        <p>Reconhecimento e pagamento de horas extras não compensadas.</p>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 4 - Small -->
+                <article class="bento-card bento-small" data-animate>
+                    <span class="bento-number">04</span>
+                    <div class="bento-content">
+                        <h3>Seguro-Desemprego</h3>
+                        <p>Assessoria completa para solicitação e recebimento do benefício.</p>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 5 - Medium -->
+                <article class="bento-card bento-medium" data-animate>
+                    <span class="bento-number">05</span>
+                    <div class="bento-content">
+                        <h3>Rescisão Indireta</h3>
+                        <p>Quando o empregador descumpre obrigações, você pode pedir a rescisão com todos os direitos.</p>
+                        <a href="https://wa.me/5521993285673" class="bento-link" target="_blank" rel="noopener noreferrer">
+                            Saiba mais <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 6 - Large -->
+                <article class="bento-card bento-large" data-animate>
+                    <span class="bento-number">06</span>
+                    <div class="bento-content">
+                        <h3>Assédio Moral e Sexual</h3>
+                        <p>Defesa em casos de assédio no ambiente de trabalho. Orientação estratégica para coleta de provas e ajuizamento da ação com indenização por danos morais.</p>
+                        <a href="https://wa.me/5521993285673" class="bento-link" target="_blank" rel="noopener noreferrer">
+                            Saiba mais <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 7 - Small -->
+                <article class="bento-card bento-small" data-animate>
+                    <span class="bento-number">07</span>
+                    <div class="bento-content">
+                        <h3>Intervalo Intrajornada</h3>
+                        <p>Cobrança quando o intervalo de almoço não é respeitado.</p>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 8 - Small -->
+                <article class="bento-card bento-small" data-animate>
+                    <span class="bento-number">08</span>
+                    <div class="bento-content">
+                        <h3>Acidente de Trabalho</h3>
+                        <p>Auxílio em casos de acidentes e doenças ocupacionais.</p>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+                
+                <!-- Card 9 - Medium -->
+                <article class="bento-card bento-medium" data-animate>
+                    <span class="bento-number">09</span>
+                    <div class="bento-content">
+                        <h3>Vínculo Doméstico e Cuidadora</h3>
+                        <p>Reconhecimento de vínculo empregatício para empregadas domésticas e cuidadores.</p>
+                        <a href="https://wa.me/5521993285673" class="bento-link" target="_blank" rel="noopener noreferrer">
+                            Saiba mais <span class="arrow">→</span>
+                        </a>
+                    </div>
+                    <div class="bento-glow"></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Encantamento -->
+    <section class="encantamento" aria-labelledby="encantamento-title">
+        <div class="encantamento-container">
+            <div class="encantamento-image-wrapper" data-animate>
+                <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(3).jpeg" 
+                     alt="Recepção do escritório Pierre Silva Advocacia" 
+                     class="encantamento-image"
+                     loading="lazy">
+                <div class="encantamento-overlay"></div>
+            </div>
+            <div class="encantamento-content" data-animate>
+                <span class="section-label">NOSSO ESPAÇO</span>
+                <h2 id="encantamento-title" class="encantamento-title">
+                    Um escritório pensado para você se sentir <span class="highlight">amparado</span>.
+                </h2>
+                <p class="encantamento-text">
+                    Ambiente acolhedor, iluminação quente e mobiliário elegante. Aqui, você encontra não apenas um advogado, mas um profissional que entende suas dores e luta pelos seus direitos com dedicação total.
+                </p>
+                <div class="encantamento-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"/><path d="M9 22v-4h6v4"/><path d="M8 6h.01"/><path d="M16 6h.01"/><path d="M8 10h.01"/><path d="M16 10h.01"/><path d="M8 14h.01"/><path d="M16 14h.01"/></svg>
+                        </span>
+                        <span class="feature-text">Sala 521 - Passeio Empresarial</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </span>
+                        <span class="feature-text">Campo Grande, Rio de Janeiro</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 20 20"/></svg>
+                        </span>
+                        <span class="feature-text">Ambiente acolhedor e profissional</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section - Timeline -->
+    <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+        <div class="sobre-container">
+            <header class="sobre-header" data-animate>
+                <span class="section-label">NOSSA HISTÓRIA</span>
+                <h2 id="sobre-title" class="section-title">Trajetória de Excelência</h2>
+            </header>
+            
+            <div class="sobre-content">
+                <div class="sobre-image-wrapper" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(4).jpeg" 
+                         alt="Dr. Pierre Silva no escritório" 
+                         class="sobre-image"
+                         loading="lazy">
+                    <div class="sobre-image-frame"></div>
+                </div>
+                
+                <div class="timeline-wrapper" data-animate>
+                    <div class="timeline-line"></div>
+                    <div class="timeline">
+                        <div class="timeline-item" data-animate>
+                            <div class="timeline-node"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2019</span>
+                                <h3>Fundação</h3>
+                                <p>Abertura do escritório em maio de 2019, com foco exclusivo em direito do trabalho.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-animate>
+                            <div class="timeline-node"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2020</span>
+                                <h3>Especialização</h3>
+                                <p>Aprofundamento na fase de execução processual, diferencial do escritório.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-animate>
+                            <div class="timeline-node"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2022</span>
+                                <h3>Expansão Nacional</h3>
+                                <p>Início do atendimento a trabalhadores de todo o Brasil, com processos em todas as regiões.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item" data-animate>
+                            <div class="timeline-node"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-year">2024</span>
+                                <h3>Reconhecimento</h3>
+                                <p>Nota máxima no Google com 18 avaliações 5 estrelas. Referência em advocacia trabalhista.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sobre-text" data-animate>
+                <p>
+                    O <strong>Pierre Silva Escritório de Advocacia</strong> nasceu da convicção de que todo trabalhador merece defesa técnica de qualidade, independentemente da complexidade do caso. Com mais de 5 anos de atuação exclusiva em direito do trabalho, desenvolvemos expertise particular na fase de execução processual — o momento mais crítico para efetivação dos direitos.
+                </p>
+                <p>
+                    Nossa proposta é simples: <strong>atendimento humanizado, transparência total e compromisso absoluto com o resultado</strong>. Cada cliente é ouvido com atenção, cada caso é analisado com cuidado, e cada estratégia é construída sob medida.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Premium Section -->
+    <section id="galeria" class="galeria" aria-label="Galeria de fotos do escritório">
+        <div class="galeria-marquee">
+            <div class="galeria-track">
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(3).jpeg" alt="Escritório Pierre Silva 1" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(4).jpeg" alt="Escritório Pierre Silva 2" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(6).jpeg" alt="Escritório Pierre Silva 3" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(8).jpeg" alt="Escritório Pierre Silva 4" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/2024-12-03.webp" alt="Escritório Pierre Silva 5" loading="lazy">
+                </div>
+                <!-- Duplicate for seamless loop -->
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(3).jpeg" alt="Escritório Pierre Silva 1" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(4).jpeg" alt="Escritório Pierre Silva 2" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(6).jpeg" alt="Escritório Pierre Silva 3" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/pierre+silva-advocacia-direito+trabalhista-reclamacao+trabalhista-em-campo+grande-rio+de+janeiro-rj%20(8).jpeg" alt="Escritório Pierre Silva 4" loading="lazy">
+                </div>
+                <div class="galeria-item" data-animate>
+                    <img src="assets/2024-12-03.webp" alt="Escritório Pierre Silva 5" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos Section - Grid Assimétrico -->
+    <section id="depoimentos" class="depoimentos" aria-labelledby="depoimentos-title">
+        <div class="depoimentos-container">
+            <header class="depoimentos-header" data-animate>
+                <div class="google-header">
+                    <svg class="google-logo" viewBox="0 0 74 24" aria-hidden="true">
+                        <path fill="#4285F4" d="M9.24 8.19v2.46h5.88c-.18 1.38-.64 2.39-1.34 3.1-.86.86-2.2 1.8-4.54 1.8-3.62 0-6.45-2.92-6.45-6.54s2.83-6.54 6.45-6.54c1.95 0 3.38.77 4.43 1.76L15.4 2.5C13.94 1.08 11.98 0 9.24 0 4.28 0 .11 4.04.11 9s4.17 9 9.13 9c2.68 0 4.7-.88 6.28-2.52 1.62-1.62 2.13-3.91 2.13-5.75 0-.57-.04-1.1-.13-1.54H9.24z"/>
+                        <path fill="#EA4335" d="M25 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z"/>
+                        <path fill="#FBBC05" d="M53.58 7.49h-.09c-.57-.68-1.67-1.3-3.06-1.3C47.53 6.19 45 8.72 45 12c0 3.26 2.53 5.81 5.43 5.81 1.39 0 2.49-.62 3.06-1.32h.09v.81c0 2.22-1.19 3.41-3.1 3.41-1.56 0-2.53-1.12-2.93-2.07l-2.22.92c.64 1.54 2.33 3.43 5.15 3.43 2.99 0 5.52-1.76 5.52-6.05V6.49h-2.42v1zm-2.93 8.03c-1.76 0-3.1-1.5-3.1-3.52 0-2.05 1.34-3.52 3.1-3.52 1.74 0 3.1 1.5 3.1 3.54 0 2.01-1.36 3.52-3.1 3.52z"/>
+                        <path fill="#4285F4" d="M38 6.19c-3.21 0-5.83 2.44-5.83 5.81 0 3.34 2.62 5.81 5.83 5.81s5.83-2.46 5.83-5.81c0-3.37-2.62-5.81-5.83-5.81zm0 9.33c-1.76 0-3.28-1.45-3.28-3.52 0-2.09 1.52-3.52 3.28-3.52s3.28 1.43 3.28 3.52c0 2.07-1.52 3.52-3.28 3.52z"/>
+                        <path fill="#34A853" d="M58 .24h2.51v17.57H58z"/>
+                        <path fill="#EA4335" d="M68.26 15.52c-1.3 0-2.22-.59-2.82-1.76l7.77-3.21-.26-.66c-.48-1.3-1.96-3.7-4.97-3.7-2.99 0-5.48 2.35-5.48 5.81 0 3.26 2.46 5.81 5.76 5.81 2.66 0 4.2-1.63 4.84-2.57l-1.98-1.32c-.66.96-1.56 1.6-2.86 1.6zm-.18-7.15c1.03 0 1.91.53 2.2 1.28l-5.25 2.17c0-2.44 1.73-3.45 3.05-3.45z"/>
+                    </svg>
+                    <div class="google-rating">
+                        <span class="rating-value">5.0</span>
+                        <div class="rating-stars">
+                            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                        </div>
+                        <span class="rating-count">18 avaliações</span>
+                    </div>
+                </div>
+                <h2 id="depoimentos-title" class="section-title">O que dizem nossos clientes</h2>
+            </header>
+            
+            <div class="testimonials-grid">
+                <!-- Card 1 -->
+                <article class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "Tive uma excelente experiência com o Dr. Pierre. Desde o primeiro atendimento, demonstrou profundo conhecimento na área trabalhista, clareza nas explicações e total comprometimento com o meu caso."
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <span class="author-name">Karina Teixeira Lima</span>
+                        <span class="author-time">4 meses atrás</span>
+                    </footer>
+                </article>
+                
+                <!-- Card 2 - Featured (larger) -->
+                <article class="testimonial-card testimonial-featured" data-animate>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "Fui até o escritório do Dr Pierre, fui muito bem atendida, ele foi super educado, me explicou tudo sobre o processo, ouviu com paciência meu caso e não me rejeitou como cliente."
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <span class="author-name">Fernanda Profissional</span>
+                        <span class="author-time">4 meses atrás</span>
+                    </footer>
+                </article>
+                
+                <!-- Card 3 -->
+                <article class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "Excelente profissional! Recomendo de olhos fechados. Muito obrigada por toda ajuda, Dr. Pierre!"
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <span class="author-name">Gabriella Queiroz</span>
+                        <span class="author-time">4 meses atrás</span>
+                    </footer>
+                </article>
+                
+                <!-- Card 4 -->
+                <article class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "Demonstra seriedade e respeito em todos os contatos, mantendo uma postura profissional impecável. Excelente profissional!!"
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <span class="author-name">Caio Alexandre</span>
+                        <span class="author-time">4 meses atrás</span>
+                    </footer>
+                </article>
+                
+                <!-- Card 5 -->
+                <article class="testimonial-card" data-animate>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <blockquote class="testimonial-quote">
+                        "Sempre muito solicito e atencioso, acima de tudo, honesto e transparente. Eu recomendo muito!!!"
+                    </blockquote>
+                    <footer class="testimonial-author">
+                        <span class="author-name">Camilla Isa</span>
+                        <span class="author-time">4 meses atrás</span>
+                    </footer>
+                </article>
+                
+            </div>
+            
+            <div class="depoimentos-actions" data-animate>
+                <a href="https://www.google.com/search?q=Pierre+Silva+Advogado+Trabalhista&oq=pier&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARAjGCcyBggCECMYJzIGCAMQRRg7MgwIBBBFGDkYsQMYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGD3SAQgzMTY4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x9be1701f5e52c3:0xacc79e5d265433d2,1,,,," 
+                   class="btn btn-outline" 
+                   target="_blank" 
+                   rel="noopener noreferrer">
+                    Ver todas as avaliações
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq" aria-labelledby="faq-title">
+        <div class="faq-container">
+            <header class="faq-header" data-animate>
+                <span class="section-label">DÚVIDAS FREQUENTES</span>
+                <h2 id="faq-title" class="section-title">Perguntas e Respostas</h2>
+            </header>
+            
+            <div class="faq-list" role="region" aria-label="Acordeão de perguntas frequentes">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+                        <span class="faq-number">01</span>
+                        <span class="faq-text">Quanto tempo tenho para entrar com uma reclamação trabalhista?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-1" class="faq-answer" role="region" aria-hidden="true">
+                        <p>O prazo prescricional é de <strong>até 5 anos</strong> para cobrança de verbas trabalhistas, contados da rescisão do contrato. Para direitos do contrato em andamento, o prazo é de 2 anos, contados do término do vínculo empregatício, com limitação retroativa de 5 anos.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+                        <span class="faq-number">02</span>
+                        <span class="faq-text">A primeira consulta é realmente gratuita?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-2" class="faq-answer" role="region" aria-hidden="true">
+                        <p><strong>Sim!</strong> Oferecemos análise inicial gratuita do seu caso. Nessa conversa, avaliamos a viabilidade jurídica, explicamos seus direitos e apresentamos a estratégia mais adequada para sua situação, sem qualquer compromisso.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+                        <span class="faq-number">03</span>
+                        <span class="faq-text">Vocês atendem em qualquer cidade do Brasil?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-3" class="faq-answer" role="region" aria-hidden="true">
+                        <p><strong>Sim!</strong> Atendemos trabalhadores de todas as regiões do Brasil. Através de tecnologia e parcerias estratégicas, conseguimos ajuizar e acompanhar processos em qualquer jurisdição do país, mantendo você sempre informado.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+                        <span class="faq-number">04</span>
+                        <span class="faq-text">Como funciona a fase de execução processual?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-4" class="faq-answer" role="region" aria-hidden="true">
+                        <p>A execução é a fase onde você efetivamente <strong>recebe o valor</strong> condenado. Inclui a apreensão de bens, bloqueio de contas, penhora de imóveis e veículos do devedor. É nossa especialidade — trabalhamos ativamente para garantir que o valor chegue até você.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+                        <span class="faq-number">05</span>
+                        <span class="faq-text">Quais documentos preciso levar na primeira consulta?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-5" class="faq-answer" role="region" aria-hidden="true">
+                        <p>Recomendamos trazer: carteira de trabalho, contracheques ou comprovantes de pagamento, cartão de ponto (se houver), TRCT (Termo de Rescisão), e qualquer outro documento relacionado ao vínculo empregatício. Quanto mais informações, melhor a análise.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 6 -->
+                <div class="faq-item" data-animate>
+                    <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-6">
+                        <span class="faq-number">06</span>
+                        <span class="faq-text">Como é cobrada a honorária advocatícia?</span>
+                        <span class="faq-icon" aria-hidden="true"></span>
+                    </button>
+                    <div id="faq-answer-6" class="faq-answer" role="region" aria-hidden="true">
+                        <p>Trabalhamos com diferentes modalidades de honorários, incluindo <strong>percentual sobre o resultado</strong> (êxito), fixo ou híbrido. A forma de pagamento é combinada de forma transparente no início do processo, sem surpresas. Na consulta inicial, explicamos todas as opções.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Localização Section -->
+    <section id="localizacao" class="localizacao" aria-labelledby="localizacao-title">
+        <div class="localizacao-container">
+            <header class="localizacao-header" data-animate>
+                <span class="section-label">ONDE ESTAMOS</span>
+                <h2 id="localizacao-title" class="section-title">Nossa Localização</h2>
+            </header>
+            
+            <div class="localizacao-grid">
+                <div class="localizacao-info" data-animate>
+                    <div class="info-block">
+                        <span class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </span>
+                        <div class="info-content">
+                            <h3>Endereço</h3>
+                            <p>Rua Campo Grande, 1014, Sala 521<br>Passeio Empresarial<br>Campo Grande, Rio de Janeiro — RJ</p>
+                            <a href="https://maps.google.com/?q=Rua+Campo+Grande+1014+Sala+521+Campo+Grande+RJ" 
+                               class="btn btn-outline btn-sm" 
+                               target="_blank" 
+                               rel="noopener noreferrer">
+                                Como Chegar
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-block">
+                        <span class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </span>
+                        <div class="info-content">
+                            <h3>Horário de Atendimento</h3>
+                            <p>Segunda a Sexta<br>10h às 17h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-block">
+                        <span class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </span>
+                        <div class="info-content">
+                            <h3>Contatos</h3>
+                            <p>
+                                <a href="tel:+5521970354570">(21) 97035-4570</a><br>
+                                <a href="https://wa.me/5521993285673" target="_blank" rel="noopener noreferrer">(21) 99328-5673 (WhatsApp)</a>
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-block">
+                        <span class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </span>
+                        <div class="info-content">
+                            <h3>Redes Sociais</h3>
+                            <div class="social-links">
+                                <a href="https://www.instagram.com/pierresilva.adv/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                                </a>
+                                <a href="https://www.facebook.com/pierresilva.adv/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="localizacao-map" data-animate>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.296041120249!2d-43.5564!3d-22.9008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU0JzAzLjEiUyA0M8KwMzMnMjMuMCJX!5e0!3m2!1spt-BR!2sbr!4v1600000000000!5m2!1spt-BR!2sbr"
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa da localização do escritório">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contato" class="cta" aria-labelledby="cta-title">
+        <div class="cta-container">
+            <div class="cta-content" data-animate>
+                <span class="section-label">ENTRE EM CONTATO</span>
+                <h2 id="cta-title" class="cta-title">
+                    Consulta gratuita.<br><span class="highlight">Conte seu caso.</span>
+                </h2>
+                <p class="cta-text">
+                    Preencha o formulário ou fale diretamente pelo WhatsApp. Retornamos em até 24 horas úteis.
+                </p>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <span class="cta-check">✓</span>
+                        <span>Análise gratuita</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-check">✓</span>
+                        <span>Atendimento em 24h</span>
+                    </div>
+                    <div class="cta-feature">
+                        <span class="cta-check">✓</span>
+                        <span>100% confidencial</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="cta-form-wrapper" data-animate>
+                <form id="contact-form" class="cta-form" novalidate>
+                    <div class="form-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telefone">Telefone / WhatsApp</label>
+                        <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="caso">Descreva seu caso</label>
+                        <textarea id="caso" name="caso" rows="4" required placeholder="Conte-nos o que aconteceu..."></textarea>
+                        <span class="form-error" aria-live="polite"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        Enviar pelo WhatsApp
+                    </button>
+                </form>
+                
+                <div class="cta-whatsapp-direct">
+                    <span>Prefere falar direto?</span>
+                    <a href="https://wa.me/5521993285673" class="whatsapp-link" target="_blank" rel="noopener noreferrer">
+                        (21) 99328-5673
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <img src="assets/img-empresa-mobile%20(2).webp" alt="Pierre Silva Advocacia" class="logo-image">
+                    </a>
+                    <p class="footer-tagline">
+                        Defesa do trabalhador com a seriedade de um grande escritório.
+                    </p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <a href="https://maps.google.com/?q=Rua+Campo+Grande+1014+Sala+521+Campo+Grande+RJ" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                </span>
+                                Rua Campo Grande, 1014, Sala 521<br>
+                                Passeio Empresarial, Campo Grande, RJ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+5521970354570">
+                                <span class="contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                </span>
+                                (21) 97035-4570
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/5521993285673" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                                </span>
+                                (21) 99328-5673
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/pierresilva.adv/" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </span>
+                                @pierresilva.adv
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/pierresilva.adv/" target="_blank" rel="noopener noreferrer">
+                                <span class="contact-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                                </span>
+                                @pierresilva.adv
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul class="links-list">
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-hours">
+                    <h3>Horário</h3>
+                    <p>Segunda a Sexta<br>10h às 17h</p>
+                    <div class="footer-cta">
+                        <a href="https://wa.me/5521993285673" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                            Agende sua Consulta
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">© Pierre Silva Escritório de Advocacia 2026</p>
+                <p class="credits">
+                    Desenvolvido por <a href="https://www.ag5agencia.com.br" target="_blank" rel="noopener noreferrer"><span class="ag5">AG5</span> Agência</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
