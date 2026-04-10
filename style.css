@@ -1229,6 +1229,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--space-3);
     padding: var(--space-4) var(--space-10);
     border-width: 1.5px;
+    color: var(--color-black);
 }
 
 .testimonial-card {
